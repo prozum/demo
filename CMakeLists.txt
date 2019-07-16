@@ -20,4 +20,4 @@ install(TARGETS src gen
         LIBRARY DESTINATION lib
         ARCHIVE DESTINATION lib)
 install(FILES ${HEADERS} DESTINATION include)
-install(FILES "${CMAKE_CURRENT_BINARY_DIR}/src.pc" "${CMAKE_CURRENT_BINARY_DIR}/gen.pc" DESTINATION lib/pkgconfig)
+install(FILES "${CMAKE_BINARY_DIR}/src.pc" "${CMAKE_BINARY_DIR}/gen.pc" DESTINATION lib/pkgconfig)
